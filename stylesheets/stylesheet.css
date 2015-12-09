@@ -4,7 +4,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #606c71; }
@@ -57,7 +57,9 @@ a {
   color: #fff;
   text-align: center;
   background-color: #159957;
-  background-image: linear-gradient(120deg, #18978E, #74C415); }
+  background-image: linear-gradient(120deg, #3E8B99, #EFB23F);
+  font-size: .85em; 
+}
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -111,8 +113,12 @@ a {
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
   margin-top: 2rem;
   margin-bottom: 1rem;
-  font-weight: normal;
-  color: #159957; }
+  font-weight: bold;
+  color: #3E8B99; }
+h1 img {
+  width: 56%;
+  margin-left: -15%;
+}
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
@@ -218,7 +224,13 @@ a {
 @media screen and (max-width: 42em) {
   .main-content {
     padding: 2rem 1rem;
-    font-size: 1rem; } }
+    font-size: 1rem; 
+  } 
+  h1 img {
+    width: 56%;
+    margin-left: 0;
+  }
+}
 
 .site-footer {
   padding-top: 2rem;
@@ -290,7 +302,7 @@ input {
 input[type=submit] {
   width: auto;
   text-transform: uppercase;
-  background: darkgreen;
+  background: #3E8B99;
   font-weight: bold;
   color: #FFF;
 }
